@@ -36,7 +36,7 @@ For success metrics, do not invent specific impression, reach, or ROI numbers. D
 
 response = client.messages.create(
     model="claude-sonnet-4-6",
-    max_tokens=2000,
+    max_tokens=3000,
     messages=[{"role": "user", "content": prompt}],
 )
 
